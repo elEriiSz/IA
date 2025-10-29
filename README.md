@@ -3,8 +3,7 @@ Programas, archivos y video de presentacion
 Los programas principales son los de titulo gen_dataset.py, ia_trainer2.py y simple_program2.py.
 Los archivos de importancia son pupil_tracker.keras ya que contiene el modelo entrenado y training_metrics que muestra las metricas del entrenamiento
 El dataset esta guardado como un directorio bajo el nombre de dataset. Este sigue el siguiente modelo:
-
-'''
+```
 dataset/
  ├── left/
  │    ├── images/
@@ -12,8 +11,7 @@ dataset/
  └── right/
       ├── images/
       └── labels/
-'''
-
+```
 Los frameworks y librerias usadas fueron numpy, opencv, scikit, tensorflow, matplot, mediapipe y pytesseract
 Para que el dataset quede limpio, lo que se utilizo fue el script de python gen_dataset.py el cual automatizo el proceso de guardado y etiquetado de cada dato
 
